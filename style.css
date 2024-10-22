@@ -1,0 +1,213 @@
+/* font for this web site  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parisienne&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.unick {
+    font-family: "Parisienne", cursive;
+}
+
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    max-width: 1440px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.continer {
+    width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 6.2rem;
+}
+
+.mainColor {
+    background-color: rgb(230, 83, 60);
+}
+
+.mainhading {
+    color: #fff;
+}
+
+.maintext {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.text-center {
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 1rem;
+    line-height: 24px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+/* banner start  */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgba(43, 42, 42, 0.8) 40%, rgba(17, 17, 17, 1) 75%, rgba(0, 0, 0) 100%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.2rem;
+    padding-bottom: 2rem;
+}
+
+.icon {
+    color: #fff;
+    font-size: 1.7rem;
+    display: none;
+}
+
+.active {
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 3rem;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+
+ul {
+    display: flex;
+    gap: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 11px 4px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-hader {
+    color: rgb(255, 255, 255);
+    font-size: 4.9rem;
+    font-weight: 900;
+}
+
+.banner-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin: 1.6rem 0;
+}
+
+.btn {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 1rem 2.9rem;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.btn_nocolor {
+    margin-left: 0.9rem;
+    border: 1px solid #fff;
+    border-radius: 42px;
+    background-color: black;
+    padding: 1rem 2.9rem;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.imgbox {
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    top: 165px;
+    left: 169px;
+    width: 10rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem 1.5rem;
+}
+
+.box2 {
+    position: relative;
+    bottom: 90px;
+    right: 150px;
+    width: 10rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    gap: 10px;
+}
+
+.icon-play {
+    color: #fff;
+    background: rgb(230, 83, 60);
+    border-radius: 30px;
+    font-size: 2rem;
+}
+
+.card {
+    margin-top: 3rem;
+}
+
+.round {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.run-img {
+    width: 366px;
+    height:312px;
+    border-radius: 18px;
+}
+.run-box{
+    padding: 2rem 3.2rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
