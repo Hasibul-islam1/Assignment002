@@ -65,7 +65,9 @@ section {
     font-weight: 900;
     line-height: 120%;
 }
-
+.mt{
+    margin-top:0.5rem;
+}
 /* banner start  */
 .banner {
     background: linear-gradient(rgba(0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgba(43, 42, 42, 0.8) 40%, rgba(17, 17, 17, 1) 75%, rgba(0, 0, 0) 100%);
@@ -98,7 +100,7 @@ section {
     font-style: italic;
 }
 
-ul {
+ nav ul {
     display: flex;
     gap: 2.5rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -213,6 +215,8 @@ ul li a {
 }
 .bmi-box{
     background-color: rgb(34, 34, 34);
+    margin-top:3rem;
+    padding-bottom:0.5rem;
 }
 table,tbody,tr,th,td{
     margin-top: 3rem;
@@ -222,3 +226,61 @@ table,tbody,tr,th,td{
     padding: 18px 15px;
     color: rgba(255, 255, 255, 0.5);
 }
+.input-box{
+    display: grid;
+    margin-top: 0.5rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+input{
+    outline: none;
+    padding:12px 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.select-box{
+    outline: none;
+    padding:12px 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.6);
+}
+.activity-box{
+    outline: none;
+    padding:12px 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.6);
+    margin: 1rem 0;
+    width: 100%;
+}
+.trainer-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding:20px;
+    margin-top: 20px;
+}
+.trainer-box img{
+    width: 320px;
+    height:270px;
+    border-radius:1rem;
+}
+.inner-box{
+    color: #fff;
+    position: relative;
+}
+.content-box{
+    position: absolute;
+    bottom: 30px;
+    padding-left:0.5rem;
+}
+.content-box p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
