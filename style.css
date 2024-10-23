@@ -81,7 +81,7 @@ section {
     padding-bottom: 2rem;
 }
 
-.icon {
+.icon{
     color: #fff;
     font-size: 1.7rem;
     display: none;
@@ -296,4 +296,43 @@ hr{
 }
 .mb{
     margin-bottom: 20px;
+}
+
+/* responsive part */
+@media screen and (max-width:576px){
+    nav ul{
+    display: none;
+   }
+   .icon{
+    display: block;
+   }
+   .d-flex{
+    flex-direction: column;
+    justify-content:start;
+   }
+   .trainer-box{
+    grid-template-columns:repeat(1,1fr);
+   }
+   .continer{
+    width:100%;
+    margin:0;
+   }
+   section{
+    width: 100%;
+   }
+   .gap{
+    gap:15px
+   }
+   .box1{
+    left: 120px;
+   }
+   .box2{
+    right:15px;
+   }
+  .btn{
+    margin-left:20px;
+  }
+   .input-box{
+    width:100%;
+   }
 }
